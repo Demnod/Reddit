@@ -51,35 +51,3 @@ for i in range(arts):
 		print i
 		print '\n' '~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~' + '\n'
 	print
-
-
-
-
-'''
-for key in league.keys():
-	if str(key) == "entries":
-		print 'IT HAS BEEN FOUND'
-		test = feedparser.parse(key)
-		print test
-'''
-
-
-'''
-for key in lol.keys():
-	print 'Current Key is ' + str(key)
-	print 'Current Value is ' + str(lol[key])
-	print '\n'
-'''
-
-
-
-'''
-for entry in league['entries']:
-	print "[+] NEW POST TITLE - " + str(entry['title'])
-	print "\n"
-'''
-'''
-for entry in league['entries']:
-	print str(entry)
-	print '\n'
-'''
